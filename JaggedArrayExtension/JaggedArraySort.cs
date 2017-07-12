@@ -28,7 +28,7 @@ namespace JaggedArrayExtension
             rhs = temp;
         }
 
-        internal static void CheckNullArgument(int[] lhs, int[] rhs)
+        public static void CheckNullArgument(int[] lhs, int[] rhs)
         {
             if (ReferenceEquals(lhs, null) || ReferenceEquals(rhs, null)) throw new ArgumentNullException();
         }

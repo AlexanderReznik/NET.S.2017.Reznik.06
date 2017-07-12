@@ -45,7 +45,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JaggedArraySortTests.cs" />
+    <Compile Include="MaxElementAscending.cs" />
+    <Compile Include="MaxElementDescending.cs" />
+    <Compile Include="MinElementAscending.cs" />
+    <Compile Include="MinElementDescending.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumAscending.cs" />
+    <Compile Include="SumDescending.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JaggedArrayExtension\JaggedArrayExtension.csproj">

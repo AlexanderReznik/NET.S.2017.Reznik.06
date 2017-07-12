@@ -40,15 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SumDescending.cs" />
     <Compile Include="IArrayComporator.cs" />
     <Compile Include="JaggedArraySort.cs" />
-    <Compile Include="MaxElementAscending.cs" />
-    <Compile Include="MaxElementDescending.cs" />
-    <Compile Include="MinElementAscending.cs" />
-    <Compile Include="MinElementDescending.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SumAscending.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
