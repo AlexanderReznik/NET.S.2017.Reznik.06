@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JaggedArrayExtension
 {
-    public class MinElementDescending : IArrayComporator
+    public class MinElementDescending : IComparer<int[]>
     {
         public int Compare(int[] lhs, int[] rhs)
         {

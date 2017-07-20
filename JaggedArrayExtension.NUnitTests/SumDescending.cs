@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JaggedArrayExtension
 {
-    public class SumDescending : IArrayComporator
+    public class SumDescending : IComparer<int[]>
     {
         public int Compare(int[] lhs, int[] rhs)
         {
